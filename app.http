@@ -1,0 +1,13 @@
+get http://localhost:5000/api/v1/transactions
+###
+
+post http://localhost:5000/api/v1/transactions
+Content-Type: application/json
+
+{
+    "text":"groceries",
+    "amount":-500
+}
+###
+
+delete http://localhost:5000/api/v1/transactions/6687bc5b3a0745021a270420
