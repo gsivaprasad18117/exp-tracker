@@ -19,8 +19,6 @@ export default (state,action)=>{
                 transactions:[...state.transactions,action.payload]
             }
         case "TRANSACTION_ERROR":
-            
-            console.log(action.payload)
             return{
                 ...state,
                 error:action.payload

@@ -41,6 +41,46 @@ h4 {
   text-transform: uppercase;
 }
 
+.balance-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-expense-btn{
+  align-self: center;
+  border-radius: 10px;
+  border-style: none;
+  background-color: grey;
+  color: white;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+}
+
+.balance-modal-container{
+  display: flex;
+  justify-content: space-between;
+}
+.balance-modal-close{
+  align-self: flex-start;
+}
+.balance-transaction-container{
+  align-self: center;
+}
+.balance-modal-item{
+  display: flex;
+}
+.balance-modal-ico{
+  text-align: center;
+  align-self: center;
+  margin-right: 10px;
+  background-color: transparent;
+  border-style: none;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+
 .inc-exp-container {
   background-color: #fff;
   box-shadow: var(--box-shadow);
